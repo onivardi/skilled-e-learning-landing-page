@@ -13,20 +13,22 @@
     @apply font-extrabold;
   }
 
-  h1 {
+  /*   img {
+    @apply w-full max-w-full;
+  } */
+}
+
+@layer components {
+  .headingXL {
     @apply text-[3.5rem] leading-[4.375rem];
   }
-  h2 {
+  .headingLG {
     @apply text-[2.5rem] leading-[3.188rem];
   }
-  h3 {
+  .headingMD {
     @apply text-[2rem] leading-10;
   }
-  h4 {
+  .headingSM {
     @apply text-2xl leading-7;
-  }
-
-  img {
-    @apply w-full max-w-full;
   }
 }

@@ -5,6 +5,7 @@ module.exports = {
     fontFamily:{
       jakarta: ["Plus Jakarta Sans", "sans-serif"]
     },
+    
     extend: {
       colors: {
         lightBlue: '#666CA3',
@@ -15,7 +16,10 @@ module.exports = {
         btnPink: '#f02aa6',
         btnOrange2: '#ff6f48',
         btnBlue: '#4851ff',
-      }
+      },
+      backgroundImage: {
+      'hero-table': "url('../assets/image-hero-tablet@2x.png')"
+    },
     },
   },
   plugins: [],
