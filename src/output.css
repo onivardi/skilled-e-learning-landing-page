@@ -821,6 +821,14 @@ h1,
     margin-right: 0px;
   }
 
+  .md\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .md\:mt-32 {
+    margin-top: 8rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -868,8 +876,24 @@ h1,
     width: 640px;
   }
 
+  .md\:w-2 {
+    width: 0.5rem;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-\[55\%_45\%\] {
+    grid-template-columns: 55% 45%;
+  }
+
+  .md\:grid-cols-\[60\%_40\%\] {
+    grid-template-columns: 60% 40%;
   }
 
   .md\:items-center {
@@ -892,12 +916,20 @@ h1,
     background-size: cover;
   }
 
+  .md\:bg-contain {
+    background-size: contain;
+  }
+
   .md\:bg-right {
     background-position: right;
   }
 
   .md\:bg-center {
     background-position: center;
+  }
+
+  .md\:bg-left {
+    background-position: left;
   }
 
   .md\:p-0 {
