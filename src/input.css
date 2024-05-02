@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply text-base font-bold leading-7 font-jakarta md:font-medium md:text-lg;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-extrabold;
+  }
+
+  h1 {
+    @apply text-[3.5rem] leading-[4.375rem];
+  }
+  h2 {
+    @apply text-[2.5rem] leading-[3.188rem];
+  }
+  h3 {
+    @apply text-[2rem] leading-10;
+  }
+  h4 {
+    @apply text-2xl leading-7;
+  }
+}
