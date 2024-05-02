@@ -25,4 +25,8 @@
   h4 {
     @apply text-2xl leading-7;
   }
+
+  img {
+    @apply w-full max-w-full;
+  }
 }

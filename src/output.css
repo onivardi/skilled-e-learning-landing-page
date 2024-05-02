@@ -488,6 +488,11 @@ h4 {
   line-height: 1.75rem;
 }
 
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -594,4 +599,137 @@ h4 {
   --tw-contain-layout:  ;
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
+}
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.bg-darkBlue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 24 63 / var(--tw-bg-opacity));
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:px-7 {
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+  }
+
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .lg\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
 }
