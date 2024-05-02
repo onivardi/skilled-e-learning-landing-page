@@ -13,9 +13,9 @@
     @apply font-extrabold;
   }
 
-  /*   img {
+  img {
     @apply w-full max-w-full;
-  } */
+  }
 }
 
 @layer components {

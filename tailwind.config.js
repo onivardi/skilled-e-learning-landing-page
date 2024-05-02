@@ -18,7 +18,7 @@ module.exports = {
         btnBlue: '#4851ff',
       },
       backgroundImage: {
-      'hero-table': "url('../assets/image-hero-tablet@2x.png')"
+      'hero-table': "url('../assets/image-hero-tablet.png')"
     },
     },
   },
