@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply text-base font-bold leading-7 font-jakarta laptop:font-medium laptop:text-lg;
+    @apply text-base font-bold leading-7 font-jakarta bg-gradient-to-b from-white to-[#f0f1ff] laptop:font-medium laptop:text-lg;
   }
   h1,
   h2,
