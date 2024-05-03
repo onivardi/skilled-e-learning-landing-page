@@ -682,6 +682,10 @@ img {
   margin-top: 1rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .block {
   display: block;
 }
@@ -871,8 +875,20 @@ img {
   padding-top: 3rem;
 }
 
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.align-bottom {
+  vertical-align: bottom;
 }
 
 .font-medium {
@@ -949,8 +965,36 @@ img {
     margin-top: 9rem;
   }
 
+  .tablet\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .tablet\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .tablet\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .tablet\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .tablet\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .tablet\:mt-40 {
+    margin-top: 10rem;
+  }
+
   .tablet\:block {
     display: block;
+  }
+
+  .tablet\:grid {
+    display: grid;
   }
 
   .tablet\:hidden {
@@ -967,6 +1011,33 @@ img {
 
   .tablet\:max-w-md {
     max-width: 28rem;
+  }
+
+  .tablet\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .tablet\:content-end {
+    align-content: flex-end;
+  }
+
+  .tablet\:gap-2 {
+    gap: 0.5rem;
+  }
+
+  .tablet\:gap-x-2 {
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
+
+  .tablet\:space-x-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(0px * var(--tw-space-x-reverse));
+    margin-left: calc(0px * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .tablet\:self-end {
+    align-self: flex-end;
   }
 
   .tablet\:bg-hero-table {

@@ -61,11 +61,13 @@
       </section>
 
       <!--Features-->
-      <section class="mx-auto space-y-10">
+      <section
+        class="mx-auto space-y-10 tablet:grid tablet:grid-cols-2 tablet:gap-2 tablet:space-x-0 tablet:mt-40"
+      >
         <div
-          class="p-6 mb-12 text-white rounded-lg bg-gradient-to-b from-btnOrange2 to-btnPink"
+          class="p-6 text-white rounded-lg bg-gradient-to-b from-btnOrange2 to-btnPink tablet:mt-10"
         >
-          <h2 class="pr-16">Check out our most popular courses!</h2>
+          <h2 class="pt-10 pr-16">Check out our most popular courses!</h2>
         </div>
 
         <div class="relative p-6 bg-white rounded-lg pt-14">
@@ -90,6 +92,25 @@
         <div class="relative p-6 bg-white rounded-lg pt-14">
           <img
             class="absolute -top-6 left-6 w-14"
+            src="../assets/icon-design.svg"
+            alt="design Icon"
+          />
+
+          <div class="space-y-2">
+            <h3 class="headingSM">Design</h3>
+            <p class="font-medium text-MyGray">
+              Create beautiful, usable interfaces to help shape the future of
+              how the web looks.
+            </p>
+          </div>
+          <a class="inline-block mt-4 text-btnPink hover:opacity-50" href=""
+            >Get Started</a
+          >
+        </div>
+
+        <div class="relative p-6 bg-white rounded-lg pt-14">
+          <img
+            class="absolute -top-6 left-6 w-14"
             src="../assets/icon-photography.svg"
             alt="Photography Icon"
           />
@@ -97,8 +118,8 @@
           <div class="space-y-2">
             <h3 class="headingSM">Photography</h3>
             <p class="font-medium text-MyGray">
-              Create beautiful, usable interfaces to help shape the future of
-              how the web looks.
+              Explore critical fundamentals like lighting, composition, and
+              focus to capture exceptional photos.
             </p>
           </div>
           <a class="inline-block mt-4 text-btnPink hover:opacity-50" href=""
