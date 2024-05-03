@@ -13,70 +13,53 @@
     <title>Skilled E-learning</title>
   </head>
   <body>
+    <!--Hero tablet background-->
     <div
-      class="hidden md:bg-hero-table md:bg-cover md:bg-center md:block md: md:absolute md:top-0 md:-right-60 md:size-[700px]"
+      class="hidden tablet:bg-hero-table tablet:bg-no-repeat tablet:bg-left-bottom tablet:block tablet: tablet:absolute tablet:top-0 tablet:right-0 tablet:w-1/2 tablet:h-[70vh] laptop:bg-hero-desktop laptop:h-[80vh] laptop:bg-[length:auto_120%]"
     ></div>
+
     <!--Header - Navgation-->
+    <div class="p-4 mx-auto tablet:px-9 desktop:max-w-7xl">
+      <header>
+        <nav class="flex items-center mx-auto">
+          <picture class="flex-grow">
+            <img
+              class="w-28"
+              src="../assets/logo-dark.svg"
+              alt="Skilled Logo"
+            />
+          </picture>
 
-    <header class="">
-      <nav class="container flex items-center p-4 mx-auto sm:px-0">
-        <picture class="flex-grow">
-          <img class="w-28" src="../assets/logo-dark.svg" alt="Skilled Logo" />
-        </picture>
+          <a
+            class="block px-6 py-[10px] text-center text-white rounded-full bg-darkBlue desktop:px-8 desktop:py-3 tablet:z-10"
+            href="#"
+            >Get Started</a
+          >
+        </nav>
+      </header>
 
-        <a
-          class="block px-6 py-[10px] text-center text-white rounded-full bg-darkBlue lg:px-8 lg:py-3 md:z-10"
-          href="#"
-          >Get Started</a
-        >
-      </nav>
-      <!-- @media (min-width: 576px) {
-    .hero-image {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 50%;
-        height: 70vh;
-        background-image: url(./assets/image-hero-tablet.png);
-        background-repeat: no-repeat;
-        background-position: bottom left;
-        
-    } -->
-      <!-- md:left-[460px] -->
-      <!-- size-[640px] -->
-    </header>
+      <!--Hero-->
+      <section class="mx-auto mt-8 tablet:mt-36">
+        <div class="max-w-sm space-y-6 tablet:max-w-md laptop:max-w-lg">
+          <h1 class="headingLG text-darkBlue laptop:headingXL">
+            Maximize skill, minimize budget
+          </h1>
+          <p class="font-medium text-MyGray tablet:pr-9 laptop:pr-13">
+            Our modern courses across a range of in-demand skills will give you
+            the knowledge you need to live the life you want.
+          </p>
+          <a
+            class="inline-block px-9 py-[13px] text-center border rounded-full bg-gradient-to-b from-btnOrange2 to-btnPink text-white self-start desktop:py-4"
+            href="#"
+            >Get Started</a
+          >
+        </div>
 
-    <!--Hero-->
-    <section
-      class="container p-4 mx-auto sm:p-0 md:grid md:grid-cols-[60%_40%] md:mt-36"
-    >
-      <div class="space-y-6">
-        <h1 class="headingLG text-darkBlue">Maximize skill, minimize budget</h1>
-        <p class="font-medium text-MyGray">
-          Our modern courses across a range of in-demand skills will give you
-          the knowledge you need to live the life you want.
-        </p>
-        <a
-          class="inline-block px-9 py-[13px] text-center border rounded-full bg-gradient-to-b from-btnOrange2 to-btnPink text-white self-start"
-          href="#"
-          >Get Started</a
-        >
-      </div>
-
-      <div class="mt-6">
-        <img
-          class="md:hidden"
-          src="../assets/image-hero-mobile.png"
-          alt="A woman taking a cup of tea"
-        />
-
-        <!-- <img
-          class="hidden md:block"
-          src="../assets/image-hero-tablet@2x.png"
-          alt=""
-        /> -->
-      </div>
-    </section>
+        <div
+          class="mx-auto mt-6 bg-center bg-cover size-[350px] bg-hero-mobile tablet:hidden"
+        ></div>
+      </section>
+    </div>
   </body>
 </html>
 <!-- 167x56 -->
