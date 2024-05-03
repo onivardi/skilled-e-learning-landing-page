@@ -686,6 +686,18 @@ img {
   margin-top: 3.5rem;
 }
 
+.mb-40 {
+  margin-bottom: 10rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
 .block {
   display: block;
 }
@@ -721,6 +733,10 @@ img {
 
 .flex-grow {
   flex-grow: 1;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .items-center {
@@ -807,8 +823,18 @@ img {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-btnBlue {
+  --tw-gradient-from: #4851ff var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(72 81 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-btnPink {
   --tw-gradient-to: #f02aa6 var(--tw-gradient-to-position);
+}
+
+.to-pinkRose {
+  --tw-gradient-to: #ffa7c3 var(--tw-gradient-to-position);
 }
 
 .bg-cover {
@@ -923,6 +949,24 @@ img {
   color: rgb(240 42 166 / var(--tw-text-opacity));
 }
 
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-sm {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 1024px) {
   .laptop\:headingXL {
     font-size: 3.5rem;
@@ -938,6 +982,11 @@ img {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-pinkRose:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 167 195 / var(--tw-bg-opacity));
 }
 
 .hover\:opacity-50:hover {
@@ -1076,6 +1125,14 @@ img {
     max-width: 32rem;
   }
 
+  .laptop\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .laptop\:gap-4 {
+    gap: 1rem;
+  }
+
   .laptop\:bg-hero-desktop {
     background-image: url('../assets/image-hero-desktop.png');
   }
@@ -1086,6 +1143,10 @@ img {
 }
 
 @media (min-width: 1280px) {
+  .desktop\:mt-52 {
+    margin-top: 13rem;
+  }
+
   .desktop\:max-w-7xl {
     max-width: 80rem;
   }
